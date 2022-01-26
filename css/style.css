@@ -1,0 +1,41 @@
+*, *::after, *::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: minmax(300px, 1.3fr) 5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "navbar main-doc";
+
+    height: 100vh;
+}
+
+/* NAVBAR */
+#navbar {
+    grid-area: navbar;
+    border: 1px solid black;
+}
+
+#header-nav {
+    padding: 2.5rem;
+    font-size: clamp(3rem, 3vw, 3.5rem);
+    text-align: center;
+}
+
+.nav-link {
+    display: block;
+    color: black;
+    padding: 1.5rem;
+    font-size: clamp(1.9rem, 3vw, 2.5rem);
+    text-decoration: none;
+    border-top: 1px solid black;
+}
