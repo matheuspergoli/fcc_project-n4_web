@@ -27,7 +27,7 @@ html {
 
 #header-nav {
     padding: 2.5rem;
-    font-size: clamp(3rem, 3vw, 3.5rem);
+    font-size: clamp(3rem, 2vw, 3.5rem);
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ html {
     display: block;
     color: black;
     padding: 1.5rem;
-    font-size: clamp(1.9rem, 3vw, 2.5rem);
+    font-size: clamp(1.9rem, 1.3vw, 2.5rem);
     text-decoration: none;
     border-top: 1px solid black;
 }
