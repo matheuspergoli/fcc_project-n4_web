@@ -39,3 +39,24 @@ html {
     border-top: 1px solid black;
     font-size: clamp(1.9rem, 1.3vw, 2.5rem);
 }
+
+/* MAIN DOC */
+#main-doc {
+    padding: 3.5rem;
+    border: 1px solid black;
+}
+
+.headline {
+    font-size: clamp(2.5rem, 3vw, 3.5rem);
+}
+
+article {
+    padding: 2rem;
+    max-width: 150ch;
+    font-size: clamp(1.4rem, 3vw, 1.7rem);
+}
+
+article ul {
+    margin-left: 6rem;
+    padding: 0.5rem;
+}
