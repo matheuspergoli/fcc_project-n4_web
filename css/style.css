@@ -16,13 +16,14 @@ html {
     grid-template-rows: 1fr;
     grid-template-areas: 
     "navbar main-doc";
-
-    height: 100vh;
 }
 
 /* NAVBAR */
 #navbar {
     grid-area: navbar;
+    position: sticky;
+    top: 0;
+    height: 97rem;
     border: 1px solid black;
 }
 
@@ -58,8 +59,8 @@ article {
 }
 
 article ul {
-    margin-left: 6rem;
     padding: 0.5rem;
+    margin-left: clamp(0.5rem, 4vw, 6rem);
 }
 
 article code {
