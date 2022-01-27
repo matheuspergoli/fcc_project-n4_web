@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -59,4 +60,11 @@ article {
 article ul {
     margin-left: 6rem;
     padding: 0.5rem;
+}
+
+article code {
+    display: block;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #F7F7F7;
 }
