@@ -24,7 +24,6 @@ html {
     position: sticky;
     top: 0;
     height: fit-content;
-    border: 1px solid black;
 }
 
 #header-nav {
@@ -45,7 +44,7 @@ html {
 /* MAIN DOC */
 #main-doc {
     padding: 3.5rem;
-    border: 1px solid black;
+    border-left: 1px solid black;
 }
 
 .headline {
